@@ -17,8 +17,8 @@
 1. Install [NodeJS](https://nodejs.org/en/) LTS
 1. [Android] Install [Android Studio](https://developer.android.com/studio) and [create an AVD](https://developer.android.com/studio/run/managing-avds)
 1. Clone this repo
-1. Open the `.sln` file using [Visual Studio](https://visualstudio.microsoft.com/)
-   * If you use [GitHub Desktop](https://desktop.github.com/), select the "Open in Visual Studio" button
+1. Open the [`CucumberCSharp.sln`](/CucumberCSharp.sln) using [Visual Studio](https://visualstudio.microsoft.com/)
+   * If you use [GitHub Desktop](https://desktop.github.com/), select the "Show in Explorer" button and then double-click the `.sln` file
 1. In the "Solution Explorer" pane, right-click the solution and then select "Restore NuGet Packages" to install dependencies noted in [AppiumWebdriver.csproj](/AppiumWebdriver/AppiumWebdriver.csproj) and [SeleniumWebdriver.csproj](/SeleniumWebdriver/SeleniumWebdriver.csproj)
 1. In the SeleniumWebdriver folder create a new file called `.env`
 1. Copy+Paste the following
