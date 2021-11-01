@@ -20,7 +20,7 @@
 1. Open [`CucumberCSharp.sln`](/CucumberCSharp.sln) using [Visual Studio](https://visualstudio.microsoft.com/)
    * If you use [GitHub Desktop](https://desktop.github.com/), select the "Show in Explorer" button and then double-click the `.sln` file
 1. In the "Solution Explorer" pane, right-click the solution and then select "Restore NuGet Packages" to install dependencies noted in [AppiumWebdriver.csproj](/AppiumWebdriver/AppiumWebdriver.csproj) and [SeleniumWebdriver.csproj](/SeleniumWebdriver/SeleniumWebdriver.csproj)
-1. In the SeleniumWebdriver folder create a new file called `.env`
+1. In the SeleniumWebdriver project create a new file called `.env`
 1. Copy+Paste the following
    ```
    TEST_BASE_URL="https://the-internet.herokuapp.com"
