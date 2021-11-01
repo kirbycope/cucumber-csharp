@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Android;
@@ -13,13 +14,15 @@ namespace AppiumWebdriver.Steps
         [BeforeTestRun]
         public static void BeforeTestRun()
         {
-            // TODO: server = 
+            ProcessStartInfo info = new ProcessStartInfo("cmd.exe");
+            info.Arguments = "/c npx appium -a 0.0.0.0 -p 4723";
+            server = Process.Start(info);
         }
 
         [AfterTestRun]
         public static void AfterTestRun()
         {
-            // TODO: server.quit()
+            server.Kill();
         }
 
         [BeforeScenario]
