@@ -35,6 +35,15 @@
 
 ## Run Tests
 
+### AltUnity (Unity Mobile Apps)
+[AltUnity](https://altom.gitlab.io/altunity/altunitytester) enables UI test automation, by instrumenting games to get access and programmatically control the Unity objects.</br>
+The [apk](/trashcat.apk) is included as part of _this_ sample repo.
+
+With the [AVD](https://developer.android.com/studio/run/emulator-commandline) running:
+   1. Open the `.sln` file using [Visual Studio](https://visualstudio.microsoft.com/)
+   1. Select "Test" > "Test Explorer"
+   1. Select the desired test(s) and then select "⏵(Run)"
+
 ### Appium (Web Apps)
 [Appium](https://appium.io) is an open source automation tool for running scripts and testing native applications, mobile-web applications and hybrid applications on Android or iOS using a webdriver. </br>
 Example tests use https://developer.android.com/training/basics/firstapp </br>

@@ -50,7 +50,6 @@ namespace AltUnityWebdriver.Steps
             desiredCapabilities.PlatformName = "Android";
             var command_executor = new Uri("http://localhost:4723/wd/hub");
             TestData.driver = new AndroidDriver<IWebElement>(command_executor, desiredCapabilities, TimeSpan.FromSeconds(30));
-
             AltUnityPortForwarding.ForwardAndroid();
             TestData.altUnityDriver = new AltUnityDriver();
         }
