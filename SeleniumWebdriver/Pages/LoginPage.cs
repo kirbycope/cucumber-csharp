@@ -1,5 +1,4 @@
 ﻿using OpenQA.Selenium;
-using static SeleniumWebdriver.TestData;
 
 namespace SeleniumWebdriver.Pages
 {
@@ -14,7 +13,7 @@ namespace SeleniumWebdriver.Pages
         /// </summary>
         public static IWebElement inputUserName()
         {
-            return driver.FindElement(By.Id("username"));
+            return TestData.driver.FindElement(By.Id("username"));
         }
 
         /// <summary>
@@ -22,7 +21,7 @@ namespace SeleniumWebdriver.Pages
         /// </summary>
         public static IWebElement inputPassword()
         {
-            return driver.FindElement(By.Id("password"));
+            return TestData.driver.FindElement(By.Id("password"));
         }
 
         /// <summary>
@@ -30,7 +29,7 @@ namespace SeleniumWebdriver.Pages
         /// </summary>
         public static IWebElement btnSubmit()
         {
-            return driver.FindElement(By.CssSelector("button[type='submit']"));
+            return TestData.driver.FindElement(By.CssSelector("button[type='submit']"));
         }
 
 
@@ -39,7 +38,7 @@ namespace SeleniumWebdriver.Pages
         /// </summary>
         public static void Open()
         {
-            driver.Url = baseUrl + "/login";
+            TestData.driver.Url = TestData.baseUrl + "/login";
         }
 
         /// <summary>
@@ -49,11 +48,11 @@ namespace SeleniumWebdriver.Pages
         {
             if (username == "valid")
             {
-                username = testUser;
+                username = TestData.testUser;
             }
             if (password == "valid")
             {
-                password = testPass;
+                password = TestData.testPass;
             }
             inputUserName().SendKeys(username);
             inputPassword().SendKeys(password);

@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeleniumWebdriver", "SeleniumWebdriver\SeleniumWebdriver.csproj", "{CB46C591-D7DC-4BCA-A6F3-C5140877285C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltUnityWebdriver", "AltUnityWebdriver\AltUnityWebdriver.csproj", "{9773B1B4-C9E4-4813-A3D3-A077145BCAA9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppiumWebdriver", "AppiumWebdriver\AppiumWebdriver.csproj", "{6D4BC18F-83AB-42D2-8601-0C28F9DC06C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppiumWebdriver", "AppiumWebdriver\AppiumWebdriver.csproj", "{C28135BD-DE33-4D20-97C0-C9036D634E9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltUnityWebdriver", "AltUnityWebdriver\AltUnityWebdriver.csproj", "{9BF84BD7-C157-4731-B220-C38E471AF3FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumWebdriver", "SeleniumWebdriver\SeleniumWebdriver.csproj", "{8480B15C-CBD4-4872-9105-6A94F769BED5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,23 +15,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CB46C591-D7DC-4BCA-A6F3-C5140877285C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CB46C591-D7DC-4BCA-A6F3-C5140877285C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CB46C591-D7DC-4BCA-A6F3-C5140877285C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CB46C591-D7DC-4BCA-A6F3-C5140877285C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6D4BC18F-83AB-42D2-8601-0C28F9DC06C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6D4BC18F-83AB-42D2-8601-0C28F9DC06C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6D4BC18F-83AB-42D2-8601-0C28F9DC06C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6D4BC18F-83AB-42D2-8601-0C28F9DC06C4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9BF84BD7-C157-4731-B220-C38E471AF3FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9BF84BD7-C157-4731-B220-C38E471AF3FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9BF84BD7-C157-4731-B220-C38E471AF3FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9BF84BD7-C157-4731-B220-C38E471AF3FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9773B1B4-C9E4-4813-A3D3-A077145BCAA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9773B1B4-C9E4-4813-A3D3-A077145BCAA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9773B1B4-C9E4-4813-A3D3-A077145BCAA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9773B1B4-C9E4-4813-A3D3-A077145BCAA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C28135BD-DE33-4D20-97C0-C9036D634E9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C28135BD-DE33-4D20-97C0-C9036D634E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C28135BD-DE33-4D20-97C0-C9036D634E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C28135BD-DE33-4D20-97C0-C9036D634E9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8480B15C-CBD4-4872-9105-6A94F769BED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8480B15C-CBD4-4872-9105-6A94F769BED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8480B15C-CBD4-4872-9105-6A94F769BED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8480B15C-CBD4-4872-9105-6A94F769BED5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {EC031185-E37E-453B-9540-107AE967B0FE}
+		SolutionGuid = {1B43FE2D-43B3-4C64-9092-2606B075E514}
 	EndGlobalSection
 EndGlobal

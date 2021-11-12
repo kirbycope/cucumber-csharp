@@ -3,7 +3,6 @@ using TechTalk.SpecFlow;
 using FluentAssertions;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium;
-using static SeleniumWebdriver.TestData;
 
 namespace SeleniumWebdriver.Steps
 {
@@ -19,7 +18,7 @@ namespace SeleniumWebdriver.Steps
         [AfterScenario]
         public void AfterScenario()
         {
-            driver.Quit();
+            TestData.driver.Quit();
         }
 
         /// <summary>
@@ -29,16 +28,16 @@ namespace SeleniumWebdriver.Steps
         {
             ChromeOptions options = new ChromeOptions();
             options.AddArgument(@"--disable-extensions");
-            driver = new ChromeDriver(options);
-            driver.Manage().Window.Maximize();
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
+            TestData.driver = new ChromeDriver(options);
+            TestData.driver.Manage().Window.Maximize();
+            TestData.driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
         }
 
         // Then I should see a message saying '<message>'
         [Then(@"I should see a message saying '(.*)'")]
         public void ThenIShouldSeeAMessageSaying(string message)
         {
-            IWebElement element = driver.FindElement(By.XPath("//*[contains(text(),'" + message + "')]"));
+            IWebElement element = TestData.driver.FindElement(By.XPath("//*[contains(text(),'" + message + "')]"));
             element.Displayed.Should().BeTrue();
         }
     }

@@ -5,14 +5,14 @@ namespace AltUnityWebdriver.Scenes
 {
     class MainScene
     {
-        /// <summay> The "Run!" `button`.</summay>
-        public static AltUnityObject BtnRun()
+        // The "Run!" `button`.
+        public static AltUnityObject btnRun()
         {
             return TestData.altUnityDriver.FindObject(By.NAME, "StartButton");
         }
 
-        /// <summay> The "||" (Pause) `button`.</summay>
-        public static AltUnityObject BtnPause()
+        // The "||" (Pause) `button`.
+        public static AltUnityObject btnPause()
         {
             return TestData.altUnityDriver.FindObject(By.NAME, "pauseButton");
         }
@@ -25,12 +25,15 @@ namespace AltUnityWebdriver.Scenes
             TestData.altUnityDriver.LoadScene("Main");
         }
 
+        /// <summary>
+        /// Start a 10 second run, then pauses.
+        /// </summary>
         public static void StartRunThenPause()
         {
-            Thread.Sleep(5000);
-            BtnRun().Tap();
+            Thread.Sleep(2000);
+            btnRun().Tap();
             Thread.Sleep(10000);
-            BtnPause().Tap();
+            btnPause().Tap();
         }
     }
 }

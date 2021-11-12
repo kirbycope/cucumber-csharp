@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Threading;
 using OpenQA.Selenium;
-using static AppiumWebdriver.TestData;
 
 namespace AppiumWebdriver.Activities
 {
@@ -12,7 +11,7 @@ namespace AppiumWebdriver.Activities
         /// </summary>
         public static IWebElement editTextEnterAMessage()
         {
-            return driver.FindElement(By.Id("editTextTextPersonName"));
+            return TestData.driver.FindElement(By.Id("editTextTextPersonName"));
         }
 
         /// <summary>
@@ -20,7 +19,7 @@ namespace AppiumWebdriver.Activities
         /// </summary>
         public static IWebElement buttonSend()
         {
-            return driver.FindElement(By.Id("button"));
+            return TestData.driver.FindElement(By.Id("button"));
         }
 
         /// <summary>
