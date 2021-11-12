@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumWebdriver", "SeleniumWebdriver\SeleniumWebdriver.csproj", "{CB46C591-D7DC-4BCA-A6F3-C5140877285C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeleniumWebdriver", "SeleniumWebdriver\SeleniumWebdriver.csproj", "{CB46C591-D7DC-4BCA-A6F3-C5140877285C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppiumWebdriver", "AppiumWebdriver\AppiumWebdriver.csproj", "{6D4BC18F-83AB-42D2-8601-0C28F9DC06C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppiumWebdriver", "AppiumWebdriver\AppiumWebdriver.csproj", "{6D4BC18F-83AB-42D2-8601-0C28F9DC06C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltUnityWebdriver", "AltUnityWebdriver\AltUnityWebdriver.csproj", "{9BF84BD7-C157-4731-B220-C38E471AF3FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6D4BC18F-83AB-42D2-8601-0C28F9DC06C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D4BC18F-83AB-42D2-8601-0C28F9DC06C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D4BC18F-83AB-42D2-8601-0C28F9DC06C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BF84BD7-C157-4731-B220-C38E471AF3FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF84BD7-C157-4731-B220-C38E471AF3FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF84BD7-C157-4731-B220-C38E471AF3FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF84BD7-C157-4731-B220-C38E471AF3FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
