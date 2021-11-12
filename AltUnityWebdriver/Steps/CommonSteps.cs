@@ -58,7 +58,6 @@ namespace AltUnityWebdriver.Steps
         [Given(@"I open the '(.*)' scene")]
         public void GivenIOpenTheScene(string name)
         {
-            // Loads the scene mentioned by its name.
             TestData.altUnityDriver.LoadScene(name);
         }
 

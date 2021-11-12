@@ -27,9 +27,9 @@ namespace AltUnityWebdriver.Scenes
 
         public static void StartRunThenPause()
         {
-            Thread.Sleep(5);
+            Thread.Sleep(5000);
             BtnRun().Tap();
-            Thread.Sleep(10);
+            Thread.Sleep(10000);
             BtnPause().Tap();
         }
     }
