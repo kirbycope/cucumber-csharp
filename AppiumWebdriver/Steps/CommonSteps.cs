@@ -42,8 +42,8 @@ namespace AppiumWebdriver.Steps
         public static void StartSession()
         {
             DriverOptions desiredCapabilities = new AppiumOptions();
-            desiredCapabilities.AddAdditionalCapability("appium:app", @"C:\Users\kirby\OneDrive\Documents\GitHub\cucumber-csharp\AppiumWebdriver\app-debug.apk");
-            desiredCapabilities.AddAdditionalCapability("appium:udid", "R58M209SNTT"); //"emulator-5554");
+            desiredCapabilities.AddAdditionalCapability("appium:app", @"C:\GitHub\cucumber-csharp\AppiumWebdriver\app-debug.apk");
+            desiredCapabilities.AddAdditionalCapability("appium:udid", "emulator-5554");
             desiredCapabilities.PlatformName = "Android";
             var command_executor = new Uri("http://localhost:4723/wd/hub");
             TestData.driver = new AndroidDriver<IWebElement>(command_executor, desiredCapabilities, TimeSpan.FromSeconds(30));

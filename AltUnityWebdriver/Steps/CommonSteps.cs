@@ -45,7 +45,7 @@ namespace AltUnityWebdriver.Steps
         public static void StartSession()
         {
             DriverOptions desiredCapabilities = new AppiumOptions();
-            desiredCapabilities.AddAdditionalCapability("appium:app", @"C:\Users\kirby\OneDrive\Documents\GitHub\cucumber-csharp\AltUnityWebdriver\trashcat.apk");
+            desiredCapabilities.AddAdditionalCapability("appium:app", @"C:\GitHub\cucumber-csharp\AltUnityWebdriver\trashcat.apk");
             desiredCapabilities.AddAdditionalCapability("appium:udid", "emulator-5554");
             desiredCapabilities.PlatformName = "Android";
             var command_executor = new Uri("http://localhost:4723/wd/hub");

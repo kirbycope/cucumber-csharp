@@ -25,9 +25,9 @@
 1. In the SeleniumWebdriver project create a new file called `.env`
 1. Copy+Paste the following
    ```
-   TEST_BASE_URL="https://the-internet.herokuapp.com"
-   TEST_USER="tomsmith"
-   TEST_PASS="SuperSecretPassword!"
+   TEST_BASE_URL=https://the-internet.herokuapp.com
+   TEST_USER=tomsmith
+   TEST_PASS=SuperSecretPassword!
    ```
 1. Save
 1. In the "Solution Explorer" pane, right-click the .env file and select "Properties"
